@@ -9,7 +9,7 @@ Debe ser capaz de identificar si los datos de entrada sean de tipo number, en ca
 //console.log("Esta aplicación puede convertir de grados Celsius a grados Fahrenheit y Kelvin");
 //console.log("Ingrese la cantidad de grados Celsius a convertir: \n");
 
-function toCelcious(){
+function convertCelsius(){
     const inCelcius = document.getElementById('txtTemperatura').value;
     const valCelsius = Number(inCelcius); // Convertir a number
     const spanF = document.getElementById('viewFahrenheit');
